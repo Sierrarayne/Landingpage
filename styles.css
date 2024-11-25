@@ -21,7 +21,13 @@
     font-weight: 400;
     font-style: normal;
   }
-  
+  main{
+       width: 80%;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
   body {
       font-family: Caudex, sans-serif;
       margin: 0;
@@ -40,8 +46,12 @@
       width: 100%;
       top: 0;
       z-index: 1000;
+      font-size: 20px;
   }
   
+  #nav-titles {
+      font-size: 17px;
+  }
   #header-img {
       max-width: 100px;
   }
@@ -70,7 +80,6 @@
   main {
       padding: 80px 20px 20px; /* Adjust padding to account for fixed header */
   }
-  
   section {
       margin-bottom: 20px;
   }
@@ -90,15 +99,10 @@
   }
   
   /* Form styles */
-  .background_box{
-    background-color: #fff;
-      padding: 20px;
-      border-radius: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      height: 3000px
-  }
+  
+  
   #form-section {
-      background-color: #fff;
+      
       padding: 20px;
       border-radius: 5px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -171,7 +175,13 @@
       background-color: #FCFF79;
   }
   
-  
+  #quote {
+    background-color: #0E18FFBD
+    color: #fff;
+
+
+
+  }
   
   /* Using a custom image as a cursor */
   element {
