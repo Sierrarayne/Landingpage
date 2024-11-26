@@ -34,7 +34,7 @@
       padding: 0;
       background: linear-gradient(180deg, #E0E1FF 0%, #979BFF 100%);;
       scroll-behavior: smooth; /* Smooth scrolling */
-  height: 4647px;
+  height: 4500px;
   }
   
   header {
@@ -164,22 +164,25 @@
   }
   
   .package-button {
-  height: 400px;
+  height: 350px;
   width: 300px;
   flex-shrink: 0;
   background-color: #FFFFE7;
   border: 6px solid #020BED;
   border-radius: 15px;
+font-size: medium;
   }
   .package-button:hover {
       background-color: #FCFF79;
   }
   
   #quote {
-    background-color: #0E18FFBD
+    background-color: #0E18FFBD;
     color: #fff;
-
-
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+font-size: 20px;
 
   }
   
